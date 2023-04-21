@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@ant-design/icons': ^5.0.1
+  '@types/dom-webcodecs': ^0.1.7
   '@types/react': ^18.0.25
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^1.0.7
@@ -47,6 +48,7 @@ dependencies:
   vite-plugin-svgr: 2.4.0_vite@4.3.0
 
 devDependencies:
+  '@types/dom-webcodecs': 0.1.7
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@vitejs/plugin-react': 1.1.4
@@ -1154,6 +1156,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: false
+
+  /@types/dom-webcodecs/0.1.7:
+    resolution: {integrity: sha512-1euwRyJ7rQrddOa24d5ZcoDRMp68xEIwyb7PKb3Wpc2OullUxHQ4a63WPa5V8R+KtCWISKjgS+f83HCUVhXS/w==}
+    dev: true
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
